@@ -1,4 +1,3 @@
-console.log('Palash')
 
 window.onload = function(){
 

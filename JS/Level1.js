@@ -296,7 +296,7 @@ Game.Level1.prototype = {
 		setTimeout(function(){
 			if(winText) winText.visible = false;
 			winText = null;
-		 }, 3000, game);
+		 }, 3000);
 	},
 
 	collisionHandlerForPlayer : function(player , enemy){
@@ -364,7 +364,7 @@ Game.Level1.prototype = {
 		enemies9.y = 0 ;
 
 		enemies10.x = 0;
-		enemies10.y = 200 ;
+		enemies10.y = 50 ;
 
 
 		var tween2 = this.add.tween(enemy2).to({x : 100 } , 2000 , Phaser.Easing.Linear.None, true , 0 , 1000, true);
